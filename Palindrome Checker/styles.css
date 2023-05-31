@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.checker-container {
+  text-align: center;
+  margin: 0 auto;
+  padding: 80px;
+}
+
+.list-container {
+  margin: 0 auto;
+  padding: 80px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.yes > p, .no > p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.input-text {
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+}
+
+.check {
+  font-size: 1.2rem;
+  padding: 5px;
+  position: absolute;
+}
+
+.result {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+.yes {
+  margin-bottom: 30px;
+
+}
+
+.no {
+  margin-top: 30px;
+}
+
+.yes, .no {
+  overflow: auto;
+  padding: 10px 55px;
+  max-height: 300px;
+}
+

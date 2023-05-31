@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Over / Under Guesser</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <!--Upper Section-->
+  <h1>Over / Under Guessing Game</h1>
+  <div class="container">
+    <div class="box before">
+      <h2>The 1st number is....</h2>
+      <span class="first"></span>
+    </div>
+    <div class="box middle">
+      <h2>Will the next number be greater than or less than the first?</h2>
+      <h2>Range is 1-100.</h2>
+      <div class="higherlower">
+        <button class="higher" onclick="toggleButtonSelection(1)">Greater</button>
+        <button class="lower selectable" onclick="toggleButtonSelection(2)">Less</button>
+      </div>
+    </div>
+    <div class="box after">
+      <button class="generate">Generate Number</button>
+      <span class="second"></span>
+    </div>
+    
+  </div>
+
+  <!--Lower Section-->
+
+  <div class="container-2">
+    <span class="correct"></span>
+    <span class="incorrect"></span>
+  </div>
+
+  <div class="container-2">
+    <button class="reset">Reset / New Number</button>
+  </div>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>

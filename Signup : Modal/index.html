@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Newsletter Signup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>If you enjoyed this content, please sign up for our newsletter below!</h2>
+    <div class="button-container">
+      <button class="button">Join our Newsletter</button>
+    </div>
+  </div>
+  
+  <div class="modal-container">
+    <div class="modal-content">
+      <form action="" class="form">
+        <span class="close">&times;</span>
+        <p><span class="required">*</span>Indicates a required field</p>
+        <div class="data-container">
+          <label for="first"><span class="required">*</span>First Name:</label>
+          <input type="text" name="first" id="first" required>
+        </div>
+        <div class="data-container">
+          <label for="last"><span class="required">*</span>Last Name:</label>
+          <input type="text" name="last" id="last" required>
+        </div>
+        <div class="data-container">
+          <label for="birthday">Date of Birth:</label>
+          <input type="date" name="birthday" id="birthday">
+        </div>
+        <div class="data-container">
+          <label for="email"><span class="required">*</span>Your email:</label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <div class="data-container">
+          <button class="submit" type="submit">Submit</button>
+        </div>
+        
+      </form>
+      <hr>
+      <h2>I will not share your information with third parties because third parties haven't paid me money for anything (including your information) and this submit form has no further funcitonality to save data to a database anyway. This is simply a basic project I was doing and you might be a goober if you've read through this entire area. Thanks for clicking!</h2>
+    </div>
+  </div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

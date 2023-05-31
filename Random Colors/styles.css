@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.rcg-app {
+  background-color: wheat;
+  border-radius: 10px 0 0 10px;
+  padding: 50px;
+  text-align: center;
+  width: 40%;
+  height: 40%;
+}
+
+.compliment-box {
+  padding: 50px;
+  border-radius: 0 10px 10px 0;
+  width: 40%;
+  text-align: center;
+  background-color: wheat;
+  height: 40%;
+}
+
+.compliment-box > span {
+  font-size: 1.4rem;
+}
+
+.comp-color-container {
+  height: 80%;
+  border-radius: 20px;
+}
+
+.color-container {
+  margin: 30px;
+}
+
+.color {
+  font-size: 3rem;
+}
+
+.generate {
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.generate:hover {
+  background-color: lightgray;
+}

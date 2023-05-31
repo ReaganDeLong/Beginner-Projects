@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #9d5609, #6ea184);
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ebc960;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.counter-app {
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #eed6ba;
+}
+
+.pictures {
+    height: 100%;
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+
+}
+
+span {
+    font-size: 3rem
+}
+
+button {
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 1.3rem;
+    height: 50px;
+    width: 100px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.add {
+    background-color: lightgreen;
+}
+
+.subtract {
+    background-color: orangered;
+}
+
+.reset {
+    background-color: yellow;
+}
+
+.sam {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+}
+
+.neutral {
+    height: 400px;
+    width: 750px;
+}
+
+.happy-1 {
+    height: 400px;
+    width: 600px;
+}
+
+.happy-2 {
+    height: 400px;
+    width: 400px;
+}
+
+.happy-3 {
+    height: 400px;
+    width: 720px;
+}
+
+.sad-1 {
+    height: 400px; 
+    width: 550px;
+}
+
+.sad-2 {
+    height: 400px;
+    width: 600px;
+}
+
+.sad-3 {
+    height: 400px;
+    width: 700px;
+}
+
+#neutral {
+    display: block;
+}

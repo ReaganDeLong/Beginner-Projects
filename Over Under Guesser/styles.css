@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1800px;
+  margin: 0 auto;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 80%;
+  flex: 1;
+  text-align: center;
+}
+
+.middle {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.before > h2 {
+  margin-bottom: 40px;
+}
+
+.first, .second {
+  font-size: 5rem;
+}
+
+.second {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.higher, .lower {
+  font-size: 1.5rem;
+  border-radius: 17px;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.higher:hover, .lower:hover {
+  background-color: orange;
+}
+
+.selected-button {
+  background-color: orange;
+}
+
+.generate {
+  font-size: 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.generate:hover {
+  background-color: lightgreen;
+}
+
+.container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.reset {
+  font-size: 2.5rem;
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 2rem;
+}
+
+.reset:hover {
+  background-color: yellow;
+}
+
+.container-2 > .correct, .incorrect {
+  font-size: 4rem;
+}

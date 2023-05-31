@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.app {
+  width: 80%;
+  height: 3rem;
+  text-align: center;
+}
+
+.input-text {
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid orange; 
+  width: 50%;
+}
+
+.button {
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+.result {
+  margin-top: 15px;
+  font-size: 1.8rem;
+}
