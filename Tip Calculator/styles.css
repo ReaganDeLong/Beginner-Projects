@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+header {
+  margin-bottom: 5rem;
+  font-size: 3rem;;
+}
+
 .container {
   height: 100vh;
   width: 100%;
@@ -16,6 +21,21 @@
 
 .tip-calculator {
   font-size: 2rem;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  height: 30vh;
+}
+
+.amount-due, .tip-container {
+  margin-bottom: 2rem;
+}
+
+.amount-due, .tip-container, .split-container {
+  width: 36%;
 }
 
 input {
@@ -36,9 +56,20 @@ input {
 .tip-input input {
   border: 1px solid black;
   outline: none;
+  border: none;
   text-align: right;
+}
+
+.tip-input {
+  border: 1px inset black;
 }
 
 #split {
   border: 1px solid black;
+  outline: none;
+}
+
+.other-fun-stuff {
+  border: 1px solid orange;
+  padding: 3rem;
 }
