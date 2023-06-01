@@ -9,17 +9,26 @@
   <div class="container">
     <header>Reagan's Tip Calculator</header>
     <div class="tip-calculator">
-      <label for="amount-due">Amount Due:</label>
-      <span class="currency-input">$<input type="text" name="amount-due" id="amount-due" class="red"></span>
-      <label for="tip">Tip Amount:</label>
-      <span class="tip-input"><input type="text" name="tip" id="tip" class="red">%</span>
-      <label for="split">Number of splits:</label>
-      <input type="text" name="split" id="split" class="red split">
+      <div class="amount-due">
+        <label for="amount-due">Amount Due:</label>
+        <span class="currency-input">$<input type="text" name="amount-due" id="amount-due" class="red"></span>
+      </div>
+      <div class="tip-container">
+        <label for="tip">Tip Amount:</label>
+        <span class="tip-input"><input type="text" name="tip" id="tip" class="red">%</span>
+      </div> 
+      <div class="split-container">
+        <label for="split">Number of splits:</label>
+        <input type="text" name="split" id="split" class="red split">
+      </div>
     </div>
-    <button class="submit">Submit</button>
-    <h2>Tip Total: <span class="tip-total"></span></h2>
-    <h2>Total: <span class="total"></span></h2>
-    <h2>Split Per Person: <span class="split-total"></span></h2>
+    <div class="other-fun-stuff">
+      <button class="submit">Submit</button>
+      <h2>Tip Total: <span class="tip-total"></span></h2>
+      <h2>Total: <span class="total"></span></h2>
+      <h2>Split Per Person: <span class="split-total"></span></h2>
+      <span class="split-output"></span>
+    </div>
   </div>
   
 
