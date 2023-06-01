@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy-container {
+  text-align: center;
+  width: 100%;
+}
+
+.input-text {
+  font-size: 2rem;
+  padding: 5px;
+  border-radius: 5px;
+  width: 70%;
+}
+
+.copy {
+  width: 28%;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 2rem;
+  cursor: pointer;
+}
