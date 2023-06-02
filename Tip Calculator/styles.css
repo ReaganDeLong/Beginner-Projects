@@ -11,7 +11,7 @@ header {
 }
 
 .container {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -28,17 +28,18 @@ header {
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  height: 30vh;
+  height: 50%;
 }
 
 .amount-due, .tip-container {
   margin-bottom: 2rem;
+  width: 50%;
 }
 
 .amount-due, 
 .tip-container, 
 .split-container {
-  width: 40%;
+  width: 50%;
 }
 
 .split-container > label {
@@ -47,8 +48,9 @@ header {
 
 input {
   font-size: 2rem;
-  width: 200px;
+  width: 30%;
   border: 1px solid black;
+  height: 100%;
 }
 
 .currency-input {
@@ -83,6 +85,7 @@ input {
   position: relative;
   width: 70%;
   text-align: center;
+
 }
 
 .submit {
@@ -91,6 +94,7 @@ input {
   margin-top: 20px;
   border-radius: 10px;
   cursor: pointer;
+  position: relative;
 }
 
 .other-fun-stuff > h2 {
@@ -101,4 +105,26 @@ input {
 .split-output {
   font-size: 1.5rem;
   color: red;
+}
+
+.error1,
+.error2,
+.error3 {
+  font-size: 1rem;
+  color: red;
+  padding-left: 5px;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .tip-calculator {
+    width: 90%;
+  }
+
+  .amount-due,
+  .tip-container,
+  .split-container {
+    width: 80%;
+  }
+
 }
